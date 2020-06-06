@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >shopifever</title>
+    <link rel="shortcut icon" type="image/png" href="ShopImages/Tag logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/shop.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <style>
+        .checked {
+          color: orange;
+        }
+        </style>
+    
+    <header>
+        <!-- Top side op header open -->
+        <!-- social icons  -->
+        <div class="TopHeader">
+            <div class="topheaderinCont">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-pinterest-p"></i>
+                <i class="fab fa-youtube"></i>
+
+           </div> 
+           <!-- massage -->
+
+           <div class="topheaderinCont">
+               <p class="topmsg">"WE AFFILEATE BEST PRODUCT FOR YOU"</p>
+           </div> 
+           <!-- Signin button -->
+           <div>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+              <i class="fas fa-user"></i>
+            </button>
+           </div>
+      </div>
+       <!-- sing in button Modal -->
+        <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+           <div class="modal-content">
+             <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">SignUp form</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                 </button>
+            </div>
+            <div class="modal-body">
+
+              <!-- form  -->
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Name</label>
+                  <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div> 
+              </form>
+              <!-- form closed -->
+              </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Submit </button>
+          </div>
+         </div>
+       </div> 
+     </div>
+    <!-- Model closed -->
+    </div>
+        </div>
+        <!-- top header closed -->
+
+        <!-- mid header open  -->
+        <div class="MidHeader">
+            <!-- div 1 logo search bar and icons )open) -->
+            <div class="midiner1"><a href="index.html"><img class="logo" src="ShopImages/ShopiFever Logo2.png" alt=""></a></div>
+            <!-- div 2 search bar -->
+            <div class="midiner2">
+                <div class="wrapper">
+                    <input type="text" class="input" placeholder="What are you looking for?">
+                    <div class="searchbtn"><i class="fas fa-search"></i></div>
+                </div>
+            </div>
+            <!--  icons (open) -->
+            <div class="midiner3">
+                <i class="far fa-star"></i>
+                <i class="far fa-heart"></i>
+                <i class="fas fa-balance-scale"></i>
+            </div>
+        </div>
+        <!-- mid header closed -->
+
+        <!-- footer header open -->
+        
+        <div class="footheader">
+          <nav class="navbar sticky-top navbar-light " id="navfoothead">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                
+                <div class="nav-item dropdown" id="space">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-bars"></i>ALL DEPARTMENTS</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="Shop.html">SHOP</a>
+                       <a class="dropdown-item" href="#">PRODUCT</a>
+                      <a class="dropdown-item" href="#">TECH NEWS</a>
+                      <a class="dropdown-item" href="#">RIVIEWS</a>
+                      <a class="dropdown-item" href="#">BLOG</a>
+                      <a class="dropdown-item" href="#">WISH LIST</a>
+                    </div>
+                </div>
+
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          MENU
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">ELECTRONICS</a>
+                          <a class="dropdown-item" href="#">AUTOMOBILE</a>
+                          <div class="dropdown-divider">CLOTHINGS</div>
+                          <a class="dropdown-item" href="#">COMPUTER & ACCESSORIES</a>
+                          <a class="dropdown-item" href="#"></a>
+                          
+                        </div>
+                      </li>
+                      <!-- <span class="navbar-text "></span> -->
+
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#"> TECH NEWS <span class="sr-only">(current)</span></a>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         REVIEWS 
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Review Details</a>
+                        </div>
+                      </li>
+                      
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         EXPLORE
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="Shop.html">Shop</a>
+                          <div class="dropdown-divider">Wish list</div>
+                          <a class="dropdown-item" href="#">Blog</a>
+                          <a class="dropdown-item" href="Contact.html">Contect us </a>
+                          
+                        </div>
+                      </li>
+                      </ul>
+                    </span>  
+                </div>
+              </nav>
+          </nav>
+        </div>
+     
+        <!-- footer header closed -->
+
+    </header>
+
+
+    <div class="container">
+      
+      <div class="inercontainer">
+        
+        <div class="shop-colum1">
+          <!-- smart phone portion -->
+          <h4 class="heading">SHOP <br></h4>
+            <div class="card" style="width: 15rem;">
+                <img  src="ShopImages/Amazon/Original-Global-Version-Huawei-P30-Lite-4GB-128GB-Mobile-Phone-6-15-inch-Smartphone-32MP-4.jpg_220x220xz.jpg_.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Huawei P30 Lite  </p>
+                  <p class="card-text">$219 &nbsp;<a href="" class="btnsz"><img class="inbtn" src="ShopImages/Btns/Amazonbtn.png" alt=""></a> </p>
+                  <p class="card-text">$203 &nbsp;<a href="#" class="btnsz"><img class="inbtn" src="ShopImages/Btns/aliexpress.png" alt=""></a> </p>
+                </div>
+            </div>
+
+          <div class="card" style="width: 15rem;">
+              <img  src="ShopImages/Daraz/Samsung S20.jpg" class="card-img-top" alt="samsung s20 5g ">
+              <div class="card-body">
+                <p class="card-text">Samsung S20 </p>
+                <p class="card-text">Rs.189,999 &nbsp;<a href="https://www.daraz.pk/products/samsung-s20-8gb-ram-128gb-rom-4500-mah-battery-i136226132-s1296536096.html?spm=a2a0e.searchlistbrand.list.27.49d8ad10jSz8Gu&search=1" class="btnsz"><img class="inbtn" src="ShopImages/Btns/Daraz Btn.png" alt=""></a> </p>
+                <p class="card-text">$.999.99 &nbsp;<a href="https://www.amazon.com/SM-G981UZIAXAA/dp/B082XXQDJF/ref=sr_1_1_sspa?dchild=1&keywords=samsung&qid=1591291670&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyUkxSUEdPSFFIMUk3JmVuY3J5cHRlZElkPUEwNjUyMzg0Mk1aTzdaRFc2NElUSSZlbmNyeXB0ZWRBZElkPUExMDQ0OTAySUg5R1czWlNZNlUxJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==" class="btnsz"><img class="inbtn" src="ShopImages/Btns/Amazonbtn.png" alt=""></a> </p>
+              </div>
+          </div>
+
+          <div class="card" style="width: 15rem;">
+            <img  src="ShopImages/Ali express/Original-Huawei-Mate-X-Folded-Screen-5G-Mobile-Phone-Kirin-980-Balong-5000-Android-9-0.jpg_220x220xz.jpg_.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Huawei Mate X </p>
+              <p class="card-text">$7289.99 &nbsp;<a href="" class="btnsz"><img class="inbtn" src="ShopImages/Btns/aliexpress.png" alt=""></a> </p>
+              <p class="card-text">comingsoon &nbsp;<a href="#" class="btnsz"><img class="inbtn" src="ShopImages/Btns/Amazonbtn.png" alt=""></a> </p>
+            </div>
+        </div>
+
+
+            <div class="card" style="width: 15rem;">
+                <img src="ShopImages/Amazon/Msi Trident X plus PC core i9.jpg"  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">MSI Trident X Plus </p>
+                  <p class="card-text">$909 &nbsp;<a href="https://www.amazon.com/MSI-Trident-Plus-9SD-042US-High-End/dp/B07ML2RVJN/ref=sr_1_1?dchild=1&keywords=MSI+Trident+X+Plus&qid=1591279054&sr=8-1" class="btnsz"><img class="inbtn" src="ShopImages/Btns/Amazonbtn.png" alt=""></a> </p>
+                  <p class="card-text">Rs550,000 &nbsp;<a href="https://www.daraz.pk/products/msi-trident-x-plus-pc-intel-core-i9-i143390604-s1304384833.html" class="btnsz"><img class="inbtn" src="ShopImages/Btns/Daraz Btn.png" alt=""></a> </p>
+                </div>
+            </div>
+
+              <div class="card" style="width: 15rem;">
+                <img src="ShopImages/Alibaba/SKYtech gaming pc.webp"  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">SkyTech [RTX 2080 TI Version]</p>
+                  <p class="card-text">$500.00 &nbsp;<a href="https://www.alibaba.com/product-detail/SkyTech-RTX-2080-TI-Version-Omega_62023856705.html?spm=a2700.themePage.100000009756463.37.4ff35d28SwUCtT" class="btnsz"><img class="inbtn" src="ShopImages/Btns/Alibaba.png" alt=""></a> </p>
+                  <p class="card-text"></p> 
+                </div>
+              </div>
+             
+
+
+              
+                
+
+        </div>
+
+
+        <div class="shop-colum2">
+            <!-- search botton -->
+            <div class="shop-colum2-row1">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button  class="search-btn" type="submit"><i class="fas fa-search"></i></button>
+                  </form>
+            </div>     
+            <!-- search button -->
+
+            <div class="shop-colum2-row">
+                <h5 class=""><font> Affiliate</font> Market <br>________</h5>
+                <li class="aff-li"><input type="checkbox"> &nbsp; Amazon</li>
+                <li class="aff-li"><input type="checkbox"> &nbsp; daraz</li>
+                <li class="aff-li"><input type="checkbox"> &nbsp; aliexpress</li>
+                <li class="aff-li"><input type="checkbox"> &nbsp; Alibaba</li>
+                
+
+            </div>
+
+            <div class="shop-colum2-row">
+                <h5 class=""><font>Product</font> Categories  <br>_________</h5>
+                
+                <li class="aff-li"><i class="fas fa-angle-right"></i> &nbsp; Bikes</li>
+                <li class="aff-li"><i class="fas fa-angle-right"></i> &nbsp; books</li>
+                <li class="aff-li"><i class="fas fa-angle-right"></i> &nbsp; Cars</li>
+                <li class="aff-li"><i class="fas fa-angle-right"></i> &nbsp; Computers/laptops</li>
+                <li class="aff-li"><i class="fas fa-angle-right"></i> &nbsp; Electric Cars</li>
+                <li class="aff-li"><i class="fas fa-angle-right"></i> &nbsp; Electrons</li>
+                <li class="aff-li"><i class="fas fa-angle-right"></i> &nbsp; mobilephone</li>
+                <li class="aff-li"><i class="fas fa-angle-right"></i> &nbsp; CLOTHINGS</li>
+                <li class="aff-li"><i class="fas fa-angle-right"></i> &nbsp; Games/Apps</li>
+                <li class="aff-li"><i class="fas fa-angle-right"></i> &nbsp; Smartphone/mobiles</li>
+                
+            </div>
+
+            <div class="shop-colum2-row">
+                <h5 class="">Share it <br>________ </h5>                
+                <div class="share-socilalinks">
+                    <a class="Share-icone-t" href=""><i class="fab fa-twitter" id="share-twit"></i></a>
+                    <a class="Share-icone-p" href=""><i class="fab fa-pinterest-p" id="share-p" ></i></a>
+                    <a class="Share-icone-f" href=""><i class="fab fa-facebook-f" id="share-fb" ></i></a>
+                    
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+    
+
+    <footer>
+        <div class=" foottop">
+
+            <div class=" logo-about-soliallink" >
+                <img class="foot-logo" src="ShopImages/ShopiFever Logo2.png" alt="">
+                <p>this is  Affileate shop hear you find best products is online shoping industry all over the world our shop is Affileated width top online shoping Stores like Daraz Amazon Alibaba Aliexpress E-bay  </p>
+                <div class="footersocilalinks">
+                    <a class="f-icone" href=""><i class="fab fa-twitter"  ></i></a>
+                    <a class="f-icone" href=""><i class="fab fa-pinterest-p"  ></i></a>
+                    <a class="f-icone" href=""><i class="fab fa-facebook-f" ></i></a>
+                    <a class="f-icone" href=""><i class="fab fa-google-plus-g"></i></a>
+                    <a class="f-icone" href=""><i class="fab fa-youtube" ></i></a>
+                </div>
+            </div >
+
+            <div class="information">
+                <p> <font style="color: #FF3D00 ;"> <b>Head Office</b></font>  <br> A-21 PH-1 Gulshan-e-Hadeed Bin Qasim Karachi </p>
+                <i class="fas fa-phone-alt"> &nbsp; 03412771539</i><br>
+                <i class="fas fa-phone-alt"> &nbsp; 03332375337</i><br>
+                <i class="far fa-envelope"> &nbsp; aliabbas.tech03@gmail.com</i>
+
+            </div>
+            <div class="footer-form">
+                <div> <h5 style="color: red ; margin-bottom: 10px;">News Letter Sign in</h5></div>
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Join</button>
+                  </form>
+                
+            </div>
+        </div>
+
+        <div class="footbottom">
+            <div class="f-b-copyright">
+                <p class="copyright-p">Copyright<a href="ShopiFever.com"> ShopiFever</a> 2020. All Right Reserved</p>
+            </div>
+
+            <div class="f-b-partners">
+               <a class="partner-a" href="https://www.daraz.pk/"> <img class="partner-logo"  src="ShopImages/Daraz_logo_color.png" alt="daraz logo "></a>
+               <a class="partner-a" href="https://www.amazon.com/"> <img class="partner-logo"  src="ShopImages/Amazon transparent.png" alt="amazon logo"></a>
+               <a class="partner-a" href="https://www.clickbank.com/"> <img class="partner-logo"  src="ShopImages/clickbank logo.webp" alt=""></a>
+               <a class="partner-a" href="https://www.aliexpress.com/"> <img class="partner-logo"  src="ShopImages/Ali express logo .png" alt=""></a>
+               <a class="partner-a" href="https://www.ebay.com/"> <img class="partner-logo"  src="ShopImages/Ebay logo .png" alt=""></a>
+               <a class="partner-a" href="https://www.alibaba.com/"> <img class="partner-logo"  src="ShopImages/Alibaba logo.png" alt=""></a> 
+            </div>
+
+        </div>
+    </footer>
+
+    <a class="arrow" href=""><img class="" src="" alt=""><i class="fas fa-arrow-circle-up"></i></a>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>

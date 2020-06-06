@@ -1,0 +1,149 @@
+.Product-body-div{
+    background-color: rgb(226, 225, 225, 0.924);
+    
+}
+
+.banner-Image{
+    background-image: url(../ShopImages/Contact\ us.jpg);
+    display: flex;
+    justify-content: center;
+}
+.banner-contant{
+    
+    margin: 40px ;
+    color: white;
+}
+.baner-heading{
+    font-size: 40px;
+
+}
+
+.p-slider{
+    max-width: 550px;
+    max-height: 550px;
+    padding: 10px 30px 10px 10px;
+    margin-left:40px;
+}
+
+.no1{
+    display: flex;
+    background-color: rgb(226, 225, 225, 0.924);
+    
+}
+.product-container-1-col{
+    width: 100%;
+    background-color: white;
+    
+}
+.product-heading{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-text{
+    border-bottom: 1px solid rgb(231, 229, 229);
+    padding: 20px  0px 20px 0px;
+}
+.some-specifications{
+    margin: 20px 0px 20px 0px;
+}
+.about-vandor{
+    margin-left:30px ;
+    
+}
+#about-vendor-icone{
+    color: chartreuse;
+    
+}
+
+
+
+.no2{
+    background-color: rgb(226, 225, 225, 0.924);
+    padding-bottom: 40px;
+    
+}
+
+/* Style tab links */
+.tablink {
+    background-color: white;
+    text-align: left;
+    color: black;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    margin: 0px 2px 0px 2px;
+    font-size: 17px;
+    width: 140px;
+    border-bottom: 1px solid rgb(165, 163, 163);
+    
+  }
+  
+  .tablink:hover {
+    background-color: red;
+
+    
+  }
+  
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: black;
+    display: none;
+    padding: 100px 20px;
+    height: 700px;
+  }
+  
+  #Home {background-color: white}
+  #News {background-color: white}
+  #Contact {background-color: white}
+  #About {background-color: white}
+
+  .tablelink-outer-pading{
+      padding:10px 0px 56px 0px;
+    
+
+  }
+  .tabcontent-inner{
+      display: flex;
+      
+      
+  }
+  @media only screen and (max-width: 780px)
+  {
+
+    .tablink {
+        
+        color: black;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 7px 2px 7px 2px;
+        margin: 0px 2px 0px 2px;
+        font-size: 15px;
+        width: 110px;
+        border-bottom: 2px solid rgb(165, 163, 163);
+      }
+      .tablelink-outer-pading{
+        padding:40px 0px 40px 0px;
+        
+  
+    }
+    .tabcontent-inner{
+        display: inline-block;
+        
+    }
+    .no1{
+        display: inline-block;
+        background-color: white;
+        justify-content: center;
+    }
+    .no2{
+        display: inline-block;
+        background-color: white;
+        justify-content: center;
+    }
+
+  }

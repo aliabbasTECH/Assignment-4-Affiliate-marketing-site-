@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(221, 221, 221);
+}
+
+.contactslider{
+    max-height: 400px;
+}
+.iner-contact-slider{
+    width: 100%;
+    
+}
+.main-body{
+    margin: 100px 0px 100px 0px;
+}
+
+.container{
+    background-color: #ffffff;
+}
+
+
+.map{
+    text-align: center;
+    padding: 10px 5px 10px 5px;
+}
+
+.form-row{
+   text-align: left;
+}
+.row1{
+width: 99%;
+    display: flex;
+    
+}
+.form-control{
+    width: 99%;
+}
+.row2{
+    width: 100%;
+}
+.textarea{
+    width: 99%;
+}
+
+.infu{
+    display: flex;
+    flex-direction: row;
+}
+.div2{
+    max-width: 300px;
+}
+.linkinfu{
+    display: flex;
+}
+.fa-map-marker-alt,.fa-phone-alt,.fa-envelope{
+    color: red;
+}
+#circle{
+    border: 2px solid red;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px ;
+    border-radius: 50px;
+}
+
+
+
+@media only screen and (max-width: 1200px){
+    .infu{
+        display: flex;
+        flex-direction:column;
+    }
+    .main-body{
+        margin: 50px 0px 50px 0px;
+    }
+
+
+}
+

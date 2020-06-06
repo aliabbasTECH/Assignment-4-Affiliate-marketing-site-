@@ -1,0 +1,176 @@
+
+
+.inercontainer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.shop-colum1{
+    
+    margin: 5px 15px 5px 15px;   
+}
+
+.shop-colum2{
+    margin: 5px;   
+}
+.shop-colum2-row,.shop-colum2-row1{
+    margin: 5px 20px 30px 5px;
+    width: 240px;
+}
+.form-inline{
+    margin: 0px 0px 0px 0px !important;
+    
+}
+.form-control{
+    margin: 0px 0px 0px 0px;
+    
+}
+.search-btn{
+    border: none;
+    background-color: white;
+    margin: 0;
+    padding: 0;    
+}
+.aff-li{
+    display: flex;
+    align-items: center;
+    padding: 5px 0px 5px 0px;
+    border-bottom: .5px solid rgb(236, 235, 235);
+}
+font{
+    color: red;
+}
+
+.shop-colum2-row{
+    padding: 10px 10px 5px 10px;
+    box-shadow: 1px 1px 10px 3px #dfdcdc;
+    
+}
+
+
+
+.share-socilalinks{
+    display: flex;
+    align-items: center;
+    
+    justify-content: right;
+    
+}
+    
+#share-twit{
+    color: rgb(10, 190, 245);
+
+}
+#share-p{
+    color: red;
+}
+#share-fb{
+    color: rgb(10, 92, 245);
+    
+}   
+
+.Share-icone-t{
+    border: 3px solid rgb(10, 190, 245);
+    border-radius: 60px;
+    text-align: center;
+    margin: 5px;
+    width: 35px;
+    height: 35px;
+}
+.Share-icone-f{
+    border: 3px solid rgb(10, 92, 245);
+    border-radius: 60px;
+    text-align: center;
+    margin: 5px;
+    width: 35px;
+    height: 35px;
+}
+.Share-icone-p{
+    border: 3px solid rgb(245, 10, 10);
+    border-radius: 60px;
+    text-align: center;
+    margin: 5px;
+    width: 35px;
+    height: 35px;
+}
+
+/*  produts portion  */
+.heading{
+    border-bottom: 1px solid red;
+    text-align: center;
+    padding: 10px 0px 10px 0px ;
+}
+.card{
+    display: inline-flex;
+    margin: 5px 10px 5px 10px ;
+    width: 100%;
+    
+   
+}
+
+.card-img-top{
+    width: 230px;
+    height: 300px;
+}
+.card-body{
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.card-text{
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: .5px solid rgb(184, 181, 181);
+    padding: 3px 0px 3px 0px;
+}
+.btnsz{
+    width: 10px;
+    border-radius: 20px;
+    box-shadow:1px 2px 5px 2px #cacaca;
+    background-color: none;
+    border-color: none;
+       
+}
+.inbtn{
+    width: 50%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px){
+    .inercontainer{
+        display: inline-table
+        
+    }
+    .card{
+        width: 18rem;
+    }
+    .shop-colum2{
+        margin: 5px; 
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+    }
+    .shop-colum2-row1{
+        width: 100%;
+        
+    }.form-control{
+        width: 95%;
+    }
+    .shop-colum2-row{
+        width: 100%;
+
+    }
+
+
+}
